@@ -8,15 +8,15 @@
 
 int main()
 {
-//Vari·veis
+//Vari√°veis
 
     int resp;
     char cod2;
     char cg_alt[20];
     int certo_p=0,errado_p=0;
 
-//Ativador da acentuaÁ„o gr·fica,
-//Comando de regionalizaÁ„o
+//Ativador da acentua√ß√£o gr√°fica,
+//Comando de regionaliza√ß√£o
  setlocale(LC_ALL, "Portuguese");
 
 system("color 3f");
@@ -45,38 +45,38 @@ printf("\n                                      ##### ##  #######  #### ########
 printf("\n\n\n");
 
 
-printf("\n                     ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆ");
-printf("\n\                  ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆ ");
-printf("\n                ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆ");
-printf("\n               ÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆÆ");
-printf("\n              ÆÆÆÆÆÆÆÆÆÆÆÆ       ÆÆÆÆÆÆÆÆÆÆÆÆ");
-printf("\n             ÆÆÆÆÆÆÆÆÆÆÆ           ÆÆÆÆÆÆÆÆÆÆÆ");
-printf("\n             ÆÆÆÆÆÆÆÆÆÆ             ÆÆÆÆÆÆÆÆÆÆ");
-printf("\n             ÆÆÆÆÆÆÆÆÆ              ÆÆÆÆÆÆÆÆÆÆ     QUAL A RESPOSTA CERTA?");
-printf("\n              ÆÆÆÆÆÆÆ              ÆÆÆÆÆÆÆÆÆÆÆ");
-printf("\n                                 ÆÆÆÆÆÆÆÆÆÆÆÆ");
-printf("\n                                ÆÆÆÆÆÆÆÆÆÆÆÆ");
-printf("\n                              ÆÆÆÆÆÆÆÆÆÆÆÆ");
-printf("\n                            ÆÆÆÆÆÆÆÆÆÆÆÆ");
-printf("\n                           ÆÆÆÆÆÆÆÆÆÆÆ");
-printf("\n                          ÆÆÆÆÆÆÆÆÆÆ");
-printf("\n                         ÆÆÆÆÆÆÆÆÆ");
-printf("\n                         ÆÆÆÆÆÆÆÆ");
-printf("\n                          ÆÆÆÆÆ");
+printf("\n                     ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n                  ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ ");
+printf("\n                ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n               ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n              ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ       ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n             ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ           ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n             ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ             ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n             ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ              ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ     QUAL A RESPOSTA CERTA?");
+printf("\n              ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ              ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n                                 ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n                                ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n                              ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n                            ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n                           ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n                          ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n                         ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n                         ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n                          ¬Æ¬Æ¬Æ¬Æ¬Æ");
 printf("\n                                ");
 printf("\n                                ");
-printf("\n                         ÆÆÆÆÆÆÆ");
-printf("\n                        ÆÆÆÆÆÆÆÆÆ");
-printf("\n                       ÆÆÆÆÆÆÆÆÆÆÆ");
-printf("\n                       ÆÆÆÆÆÆÆÆÆÆÆ");
-printf("\n                        ÆÆÆÆÆÆÆÆÆ");
-printf("\n                          ÆÆÆÆÆ");
+printf("\n                         ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n                        ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n                       ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n                       ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n                        ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ¬Æ");
+printf("\n                          ¬Æ¬Æ¬Æ¬Æ¬Æ");
 
 
 
 
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do{
             cod2 = getch();
         }while (cod2 != 13);
@@ -91,25 +91,25 @@ printf("\n                          ÆÆÆÆÆ");
         printf("\n\n\n-----------------------------------------------------------------------------\n");
         printf("                              SUPER QUIZ\n");
         printf("-----------------------------------------------------------------------------\n");
-        printf ("\n\n\n\n   Ol·, seja bem vindo ao  SUPER QUIZ, jogo de perguntas e respostas.");
-        printf("\n\n\n   Seu objetivo È acertar o m·ximo de perguntas para conquistar a medalha de ouro");
+        printf ("\n\n\n\n   Ol√°, seja bem vindo ao  SUPER QUIZ, jogo de perguntas e respostas.");
+        printf("\n\n\n   Seu objetivo √© acertar o m√°ximo de perguntas para conquistar a medalha de ouro");
         printf("\n\n\n   se errar mais do que acertar ou empatar... GAME OVER");
 
-        printf("\n\n\n                                                    Aperte enter para avanÁar!");
+        printf("\n\n\n                                                    Aperte enter para avan√ßar!");
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do{
             cod2 = getch();
         }while (cod2 != 13);
 
         system("cls");/*Limpar a tela anterior*/
 
-//Apresentar as instruÁıes do jogo ao usu·rio.
+//Apresentar as instru√ß√µes do jogo ao usu√°rio.
 
         system("color f0"); /*Mudar a cor da linha*/
 
         printf("***********************************************************************************\n");
-        printf("                            INSTRU«’ES DO JOGO\n");
+        printf("                            INSTRU√á√ïES DO JOGO\n");
         printf("***********************************************************************************\n");
         printf("\n||===============================================================================||");
         printf("\n||                                                                               ||");
@@ -117,9 +117,9 @@ printf("\n                          ÆÆÆÆÆ");
         printf("\n||                                                                               ||");
         printf("\n||* o Jogador tem que escolher uma alternatitva e digitar a letra correspondente;||");
         printf("\n||                                                                               ||");
-        printf("\n||* ApÛs responder cada pergunta aperte ENTER e passe para a prÛxima;            ||");
+        printf("\n||* Ap√≥s responder cada pergunta aperte ENTER e passe para a pr√≥xima;            ||");
         printf("\n||                                                                               ||");
-        printf("\n||* No final ter· a opÁ„o de retornar ao jogo ou ir para o placar final          ||");
+        printf("\n||* No final ter√° a op√ß√£o de retornar ao jogo ou ir para o placar final          ||");
         printf("\n||                                                                               ||");
         printf("\n||* Se acertar a resposta o jogo vai te indicar com a cor verde;                 ||");
         printf("\n||                                                                               ||");
@@ -132,7 +132,7 @@ printf("\n                          ÆÆÆÆÆ");
 
         printf("\n\n\nVamos comecar! \n\n");
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         printf("\n\nAperte enter !");
 
         do{
@@ -145,7 +145,7 @@ printf("\n                          ÆÆÆÆÆ");
 
 
 
-//RÛtulo, comando para onde o GoTo ir· Saltar ao ser solicitado
+//R√≥tulo, comando para onde o GoTo ir√° Saltar ao ser solicitado
         Inicio :  system("color B");
 
 //Titulo do jogo
@@ -157,12 +157,12 @@ printf("\n                          ÆÆÆÆÆ");
 
         printf ("\n1) QUAL PALAVRA ESTA ESCRITA CORRETAMENTE ?");
         printf("\n\na)Chicara");
-        printf("\n\nb)JilÛ");
+        printf("\n\nb)Jil√≥");
         printf("\n\nc)Emcima");
         printf("\n\nResposta: ");
         scanf ("\n%c", &cg_alt[0]);
         printf("\n===============================================================================");
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[0]=='b'|| cg_alt[0]=='B')
 {
         system("color A");
@@ -176,7 +176,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -193,8 +193,8 @@ printf("\n                          ÆÆÆÆÆ");
         printf("*******************************************************************************\n");
 
 //Segunda pergunta
-        printf ("\n2) QUAL POVO PR…-COLOMBIANO OCUPOU A REGI√O ONDE HOJE SE");
-        printf("\n\nLOCALIZA O M…XICO ?");
+        printf ("\n2) QUAL POVO PR√â-COLOMBIANO OCUPOU A REGI√ÉO ONDE HOJE SE");
+        printf("\n\nLOCALIZA O M√âXICO ?");
         printf("\n\na)Maias");
         printf("\n\nb)Incas");
         printf("\n\nc)Astecas");
@@ -202,7 +202,7 @@ printf("\n                          ÆÆÆÆÆ");
         scanf ("\n%c", &cg_alt[1]);
         printf("\n===============================================================================");
 
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[1]=='a'|| cg_alt[1]=='A')
 {
         system("color A");
@@ -216,7 +216,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -235,13 +235,13 @@ printf("\n                          ÆÆÆÆÆ");
 //Terceira pergunta
         printf ("\n3) QUAL O MAIOR ANIMAL DA TERRA ?");
         printf("\n\na)Elefante");
-        printf("\n\nb)Tubar„o-Baleia");
+        printf("\n\nb)Tubar√£o-Baleia");
         printf("\n\nc)Baleia azul");
         printf("\n\nResposta: ");
         scanf ("\n%c", &cg_alt[2]);
         printf("\n===============================================================================");
 
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[2]=='c'||cg_alt[2]=='C')
 {
         system("color A");
@@ -256,7 +256,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -273,7 +273,7 @@ printf("\n                          ÆÆÆÆÆ");
         printf("*******************************************************************************\n");
 
 //Quarta pergunta
-        printf ("\n4) QUAL … O JOGO MAIS JOGADO NO MUNDO ATUALMENTE ?");
+        printf ("\n4) QUAL √â O JOGO MAIS JOGADO NO MUNDO ATUALMENTE ?");
         printf("\n\na)League of legends");
         printf("\n\nb)Counter strike");
         printf("\n\nc)Battlefield");
@@ -281,7 +281,7 @@ printf("\n                          ÆÆÆÆÆ");
         scanf ("\n%c", &cg_alt[3]);
         printf("\n===============================================================================");
 
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[3]=='a'||cg_alt[3]=='A')
 {
         system("color A");
@@ -296,7 +296,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -313,8 +313,8 @@ printf("\n                          ÆÆÆÆÆ");
         printf("*******************************************************************************\n");
 
 //Quinta pergunta
-        printf ("\n5) QUATRO MOEDAS S√O LAN«ADAS SIMULTANEAMENTE. QUAL A PROBABILIDADE");
-        printf ("\nDE OCORRER COROA EM UMA S” MOEDA ?");
+        printf ("\n5) QUATRO MOEDAS S√ÉO LAN√áADAS SIMULTANEAMENTE. QUAL A PROBABILIDADE");
+        printf ("\nDE OCORRER COROA EM UMA S√ì MOEDA ?");
         printf("\n\na)1/8");
         printf("\n\nb)2/9");
         printf("\n\nc)1/4");
@@ -323,7 +323,7 @@ printf("\n                          ÆÆÆÆÆ");
         printf("\n===============================================================================");
 
 
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[4]=='c'||cg_alt[4]=='C')
 {
         system("color A");
@@ -338,7 +338,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -355,15 +355,15 @@ printf("\n                          ÆÆÆÆÆ");
         printf("*******************************************************************************\n");
 
 //Sexta pergunta
-        printf ("\n6) EM QUAL PAÕS FOI CONSTRUÕDO UM CANAL QUE LIGA OS OCEANOS ATL¬NTICO E PACÕFICO ?");
-        printf("\n\na)MÈxico");
-        printf("\n\nb)Panam·");
+        printf ("\n6) EM QUAL PA√çS FOI CONSTRU√çDO UM CANAL QUE LIGA OS OCEANOS ATL√ÇNTICO E PAC√çFICO ?");
+        printf("\n\na)M√©xico");
+        printf("\n\nb)Panam√°");
         printf("\n\nc)EUA");
         printf("\n\nResposta: ");
         scanf ("\n%c", &cg_alt[5]);
         printf("\n===============================================================================");
 
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[5]=='b'||cg_alt[5]=='B')
 {
         system("color A");
@@ -378,7 +378,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -394,8 +394,8 @@ printf("\n                          ÆÆÆÆÆ");
         printf("                                SUPER QUIZ       \n");
         printf("*******************************************************************************\n");
 
-//SÈtima pergunta
-        printf ("\n7) QUAL A PROPOSI«√O COMPOSTA LOGICAMENTE VERDADEIRA ?");
+//S√©tima pergunta
+        printf ("\n7) QUAL A PROPOSI√á√ÉO COMPOSTA LOGICAMENTE VERDADEIRA ?");
         printf("\n\na)(2=2)=>(2.3=5)");
         printf("\n\nb)(2=3)e(2.3=5)");
         printf("\n\nc)(2=3)=>(2.3=5)");
@@ -403,7 +403,7 @@ printf("\n                          ÆÆÆÆÆ");
         scanf ("\n%c", &cg_alt[6]);
         printf("\n===============================================================================");
 
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[6]=='c'||cg_alt[6]=='C')
 {
         system("color A");
@@ -418,7 +418,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -435,15 +435,15 @@ printf("\n                          ÆÆÆÆÆ");
         printf("*******************************************************************************\n");
 
 //Oitava pergunta
-        printf ("\n8) QUAL PAÕS EST¡ LOCALIZADO NA AM…RICA DO NORTE ?");
+        printf ("\n8) QUAL PA√çS EST√Å LOCALIZADO NA AM√âRICA DO NORTE ?");
         printf("\n\na)Haiti");
-        printf("\n\nb)MÈxico");
-        printf("\n\nc)Groel‚ndia");
+        printf("\n\nb)M√©xico");
+        printf("\n\nc)Groel√¢ndia");
         printf("\n\nResposta: ");
         scanf ("\n%c", &cg_alt[7]);
         printf("\n===============================================================================");
 
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[7]=='c'||cg_alt[7]=='C')
 {
         system("color A");
@@ -457,7 +457,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -474,15 +474,15 @@ printf("\n                          ÆÆÆÆÆ");
         printf("*******************************************************************************\n");
 
 //Nona pergunta
-        printf ("\n9) EM QUAL ALTERNATIVA ESTA A PALAVRA COM O G NERO INDICADO INCORRETAMENTE ?");
-        printf("\n\na)a ·gape");
+        printf ("\n9) EM QUAL ALTERNATIVA ESTA A PALAVRA COM O G√äNERO INDICADO INCORRETAMENTE ?");
+        printf("\n\na)a √°gape");
         printf("\n\nb)a grama");
-        printf("\n\nc)a hÈlice");
+        printf("\n\nc)a h√©lice");
         printf("\n\nResposta: ");
         scanf ("\n%c", &cg_alt[8]);
         printf("\n===============================================================================");
 
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[8]=='a'||cg_alt[8]=='A')
 {
         system("color A");
@@ -496,7 +496,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -511,8 +511,8 @@ printf("\n                          ÆÆÆÆÆ");
         printf("                                SUPER QUIZ       \n");
         printf("*******************************************************************************\n");
 
-//DÈcima pergunta
-        printf ("\n10) O T…TANO … UMA DOEN«A AGUDA E CONTAGIOSA QUE PODE SER");
+//D√©cima pergunta
+        printf ("\n10) O T√âTANO √â UMA DOEN√áA AGUDA E CONTAGIOSA QUE PODE SER");
         printf("\n\nPREVENIDA MEDIANTE CUIDADOS COM O AMBIENTE HIGIENE PESSOAL E VETORES ?");
         printf("\n\na)Certo");
         printf("\n\nb)Errado");
@@ -520,7 +520,7 @@ printf("\n                          ÆÆÆÆÆ");
         scanf ("\n%c", &cg_alt[9]);
         printf("\n===============================================================================");
 
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[9]=='b'||cg_alt[9]=='B')
 {
         system("color A");
@@ -535,7 +535,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -550,16 +550,16 @@ printf("\n                          ÆÆÆÆÆ");
         printf("                                SUPER QUIZ       \n");
         printf("*******************************************************************************\n");
 
-//DÈcima primeira pergunta
-        printf ("\n11) CAPIT√ES DE AREIA … UM ROMANCE ESCRITO POR QUAL AUTOR ?");
-        printf("\n\na)Guimar„es Rosa");
+//D√©cima primeira pergunta
+        printf ("\n11) CAPIT√ÉES DE AREIA √â UM ROMANCE ESCRITO POR QUAL AUTOR ?");
+        printf("\n\na)Guimar√£es Rosa");
         printf("\n\nb)Machado de Assis.");
         printf("\n\nc)Jorge Amado.");
         printf("\n\nResposta: ");
         scanf ("\n%c", &cg_alt[10]);
         printf("\n===============================================================================");
 
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[10]=='c'||cg_alt[10]=='C')
 {
         system("color A");
@@ -574,7 +574,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -590,16 +590,16 @@ printf("\n                          ÆÆÆÆÆ");
         printf("                                SUPER QUIZ       \n");
         printf("*******************************************************************************\n");
 
-//DÈcima Segunda pergunta
-        printf ("\n12) O PLURAL DE FOG√OZINHO E CIDAD√ … : ");
-        printf("\n\na)fogıezinhos e cidad„os.");
-        printf("\n\nb)fog„ozinhos e cidad„os.");
-        printf("\n\nc)fogıezinhos e cidadıes.");
+//D√©cima Segunda pergunta
+        printf ("\n12) O PLURAL DE FOG√ÉOZINHO E CIDAD√É √â : ");
+        printf("\n\na)fog√µezinhos e cidad√£os.");
+        printf("\n\nb)fog√£ozinhos e cidad√£os.");
+        printf("\n\nc)fog√µezinhos e cidad√µes.");
         printf("\n\nResposta: ");
         scanf ("\n%c", &cg_alt[11]);
         printf("\n===============================================================================");
 
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[11]=='a'||cg_alt[11]=='A')
 {
         system("color A");
@@ -614,7 +614,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -630,8 +630,8 @@ printf("\n                          ÆÆÆÆÆ");
         printf("                                SUPER QUIZ       \n");
         printf("*******************************************************************************\n");
 
-//DÈcima terceira pergunta
-        printf ("\n13) QUEM FOI O ATOR PRINCIPAL DO FILME SR E SR™ SMITH ? ");
+//D√©cima terceira pergunta
+        printf ("\n13) QUEM FOI O ATOR PRINCIPAL DO FILME SR E SR¬™ SMITH ? ");
         printf("\n\na)Brad Pitt");
         printf("\n\nb)Tom Hanks");
         printf("\n\nc)Tom Cruise");
@@ -639,7 +639,7 @@ printf("\n                          ÆÆÆÆÆ");
         scanf ("\n%c", &cg_alt[12]);
         printf("\n===============================================================================");
 
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[12]=='a'||cg_alt[12]=='A')
 {
         system("color A");
@@ -654,7 +654,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -669,20 +669,20 @@ printf("\n                          ÆÆÆÆÆ");
         printf("                                SUPER QUIZ       \n");
         printf("*******************************************************************************\n");
 
-//DÈcima quarta pergunta
-        printf ("\n14) DADA AS SENTEN«AS: ");
-        printf("\n\n1. Ele n„o chegou a falar com a Presidenta;");
+//D√©cima quarta pergunta
+        printf ("\n14) DADA AS SENTEN√áAS: ");
+        printf("\n\n1. Ele n√£o chegou a falar com a Presidenta;");
         printf("\n\n 2. Ele sofreu um entorse grave;");
-        printf("\n\n 3. A tracoma È uma doenÁa contagiosa.");
+        printf("\n\n 3. A tracoma √© uma doen√ßa contagiosa.");
         printf("\n\nDeduzimos que:");
-        printf("\n\na)apenas a sentenÁa 2 est· correta");
-        printf("\n\nb) todas est„o corretas");
-        printf("\n\nc)apenas a sentenÁa 1 est· correta");
+        printf("\n\na)apenas a senten√ßa 2 est√° correta");
+        printf("\n\nb) todas est√£o corretas");
+        printf("\n\nc)apenas a senten√ßa 1 est√° correta");
         printf("\n\nResposta: ");
         scanf ("\n%c", &cg_alt[13]);
         printf("\n===============================================================================");
 
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[13]=='c'||cg_alt[13]=='C')
 {
         system("color A");
@@ -697,7 +697,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -712,8 +712,8 @@ printf("\n                          ÆÆÆÆÆ");
         printf("                                SUPER QUIZ       \n");
         printf("*******************************************************************************\n");
 
-//DÈcima quinta pergunta
-        printf ("\n15) QUAL ANIME JAPON S POSSUI UMA RAPOUSA DE NOVE CALDAS ?");
+//D√©cima quinta pergunta
+        printf ("\n15) QUAL ANIME JAPON√äS POSSUI UMA RAPOUSA DE NOVE CALDAS ?");
         printf("\n\na)Bleach");
         printf("\n\nb)Alvin e os esquilos");
         printf("\n\nc)Naruto");
@@ -721,7 +721,7 @@ printf("\n                          ÆÆÆÆÆ");
         scanf ("\n%c", &cg_alt[14]);
         printf("\n===============================================================================");
 
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[14]=='c'||cg_alt[14]=='C')
 {
         system("color A");
@@ -736,7 +736,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -751,8 +751,8 @@ printf("\n                          ÆÆÆÆÆ");
         printf("                                SUPER QUIZ       \n");
         printf("*******************************************************************************\n");
 
-//DÈcima sexta pergunta
-        printf ("\n16) DETERMINE A ¡REA DE UM TRI¬NGULO COM BASE NOS SEGUINTES DADOS:");
+//D√©cima sexta pergunta
+        printf ("\n16) DETERMINE A √ÅREA DE UM TRI√ÇNGULO COM BASE NOS SEGUINTES DADOS:");
         printf("\n\n(base:3 e altura:8.)");
         printf("\n\na)12");
         printf("\n\nb)11");
@@ -761,7 +761,7 @@ printf("\n                          ÆÆÆÆÆ");
         scanf ("\n%c", &cg_alt[15]);
         printf("\n===============================================================================");
 
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[15]=='a'||cg_alt[15]=='A')
 {
         system("color A");
@@ -775,7 +775,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -790,8 +790,8 @@ printf("\n                          ÆÆÆÆÆ");
         printf("                                SUPER QUIZ       \n");
         printf("*******************************************************************************\n");
 
-//DÈcima sÈtima pergunta
-        printf ("\n17) QUAL O DESTES ESTADOS EST¡ LOCALIZADO NA REGI√O NORTE ? ");
+//D√©cima s√©tima pergunta
+        printf ("\n17) QUAL O DESTES ESTADOS EST√Å LOCALIZADO NA REGI√ÉO NORTE ? ");
         printf("\n\na)BAHIA");
         printf("\n\nb)ACRE");
         printf("\n\nc)MATO GROSSO");
@@ -799,7 +799,7 @@ printf("\n                          ÆÆÆÆÆ");
         scanf ("\n%c", &cg_alt[16]);
         printf("\n===============================================================================");
 
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[16]=='b'||cg_alt[16]=='B')
 {
         system("color A");
@@ -814,7 +814,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -829,16 +829,16 @@ printf("\n                          ÆÆÆÆÆ");
         printf("                                SUPER QUIZ       \n");
         printf("*******************************************************************************\n");
 
-//DÈcima oitava pergunta
-        printf ("\n18) QUEM CANTA A M⁄SICA CINQUENTA REAIS ?");
+//D√©cima oitava pergunta
+        printf ("\n18) QUEM CANTA A M√öSICA CINQUENTA REAIS ?");
         printf("\n\na)Naiara Azevedo");
         printf("\n\nb)Maiara e Maraisa");
-        printf("\n\nc)MarÌlia MendoÁa");
+        printf("\n\nc)Mar√≠lia Mendo√ßa");
         printf("\n\nResposta: ");
         scanf ("\n%c", &cg_alt[17]);
         printf("\n===============================================================================");
 
-//Utilizar a condicional if...else, para analisar a resposta do usu·rio
+//Utilizar a condicional if...else, para analisar a resposta do usu√°rio
         if (cg_alt[17]=='a'||cg_alt[17]=='A')
 {
         system("color A");
@@ -853,7 +853,7 @@ printf("\n                          ÆÆÆÆÆ");
         errado_p++;
 }
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -869,33 +869,33 @@ printf("\n                          ÆÆÆÆÆ");
         printf("                                SUPER QUIZ       \n");
         printf("*******************************************************************************\n");
         printf("\n\n           TEM CERTEZA DAS SUAS RESPOSTAS?");
-        printf("\n\n   VOC  TEM OUTRA CHANCE DE RESPONDER AS PERGUNTAS NOVAMENTE.");
+        printf("\n\n   VOC√ä TEM OUTRA CHANCE DE RESPONDER AS PERGUNTAS NOVAMENTE.");
         printf("\n\n   SE DESEJA RETORNAR AO JOGO DIGITE (0)");
         printf("\n\n   CASO DESEJE FINALIZAR E VERIFICAR SEU PLACAR DIGITE (1)");
         printf("\n\n                   BOA SORTE!");
         scanf("%d", &resp);
 
 
-//Utilizar a condicional if, para analisar a resposta do usu·rio caso ele deseje jogar novamente
+//Utilizar a condicional if, para analisar a resposta do usu√°rio caso ele deseje jogar novamente
         if (resp==0)
 
 {
         system ("cls");
 
-//Estrutura para pular para a estrutura do rÛtulo (INÕCIO) caso o usu·rio deseje retornar ao comeÁo do jogo
+//Estrutura para pular para a estrutura do r√≥tulo (IN√çCIO) caso o usu√°rio deseje retornar ao come√ßo do jogo
         goto Inicio;
 }
-//Utilizar a condicional if, para analisar a resposta do usu·rio caso ele deseje finalizar o jogo
+//Utilizar a condicional if, para analisar a resposta do usu√°rio caso ele deseje finalizar o jogo
         if (resp==1)
 {
 
         printf("\n*******************************************************************************");
-        printf("\n                           PONTUA«√O!");
+        printf("\n                           PONTUA√á√ÉO!");
         printf("\n*******************************************************************************");
         printf ("      \nAcertos..: %d\n",certo_p);
         printf ("      \nErros....: %d\n",errado_p);
 
-//Utilizar a estrutura de repetiÁ„o enquanto o usu·rio apertar enter para avanÁar no jogo
+//Utilizar a estrutura de repeti√ß√£o enquanto o usu√°rio apertar enter para avan√ßar no jogo
         do
 {
         cod2 = getch();
@@ -910,44 +910,44 @@ printf("\n                          ÆÆÆÆÆ");
         if (certo_p > errado_p)
 {
         system("color E");/*Mudar a cor da linha*/
-//Apresentar a mensagem caso o usu·rio ganhe o jogo
+//Apresentar a mensagem caso o usu√°rio ganhe o jogo
         printf("*******************************************************************************\n");
-        printf("\n\n                           PARAB…EEEEENS!");
+        printf("\n\n                           PARAB√âEEEEENS!");
         printf("\n*******************************************************************************");
-        printf("\n\n                     VOC  GANHOU A MEDALHA DE OURO");
+        printf("\n\n                     VOC√ä GANHOU A MEDALHA DE OURO");
         printf("\n            OBTEVE UM TOTAL DE ACERTOS MAIOR QUE O DE ERROS");
         printf("\n            GUARDA ESSA MEDALHA DE OURO, FOI MUITO BEM MERECIDA");
 
 
 
-        printf("\n\n                               . ëCë$=033J=3ë7..");
-        printf("\n                            $*ë33A00305A00$JC#0. A.");
+        printf("\n\n                               . ¬ëC¬ë$=033J=3¬ë7..");
+        printf("\n                            $*¬ë33A00305A00$JC#0. A.");
         printf("\n                          .$=A5A#333J3$33$$$$03$@(@");
         printf("\n                        .A0A55$33333333$$$$$$$$$33#@W ");
-        printf("\n                        0$A5033303333J$$$$$$$A$$0$05@–.");
-        printf("\n                      ë0AA5JJJ0J3333$$$$$$0$$$033000A#@");
+        printf("\n                        0$A5033303333J$$$$$$$A$$0$05@√ê.");
+        printf("\n                      ¬ë0AA5JJJ0J3333$$$$$$0$$$033000A#@");
         printf("\n                      #A$#A3$$333$$$$$$$$$0000A003A350#J ");
         printf("\n                      .555$33333$$$$$$$$00000005A3050A0 .");
-        printf("\n                      ë050JJ$$$$$$$$$$00000000AA3555$0ë..");
-        printf("\n                      ë,55J$$$3$$$$$$0000000AAA0A$5A$3= .");
-        printf("\n                       ë05$$$$3$$$$0000000AAAA30$$5$$$= ");
-        printf("\n                      .ë=55303$$J$0000000AAA$3A3$5033@A ");
+        printf("\n                      ¬ë050JJ$$$$$$$$$$00000000AA3555$0¬ë..");
+        printf("\n                      ¬ë,55J$$$3$$$$$$0000000AAA0A$5A$3= .");
+        printf("\n                       ¬ë05$$$$3$$$$0000000AAAA30$$5$$$= ");
+        printf("\n                      .¬ë=55303$$J$0000000AAA$3A3$5033@A ");
         printf("\n                        A#A#A0A0A03300AAA%333#555$33@$. ");
-        printf("\n                        .*Cë555J30$$$0AA$J303050$J,@. ");
-        printf("\n                          .Jë30555J$A55A5AAA$3$$3'ë ");
+        printf("\n                        .*C¬ë555J30$$$0AA$J303050$J,@. ");
+        printf("\n                          .J¬ë30555J$A55A5AAA$3$$3'¬ë ");
         printf("\n                            .@#$$3$00555A3C3@3##@.");
         printf("\n                            #######A$#$##0#######$");
-        printf("\n                          .ë###A####A############# ");
+        printf("\n                          .¬ë###A####A############# ");
         printf("\n                          .########AA#AA#A########(");
-        printf("\n                          ëA#######AAA#AAAAAA#####%");
-        printf("\n                          ####A#AAAAAA$AAAAAAAAAAAAë");
-        printf("\n                        .,AA##AAAAAAAA ëAAAAAAAAAAAAë");
+        printf("\n                          ¬ëA#######AAA#AAAAAA#####%");
+        printf("\n                          ####A#AAAAAA$AAAAAAAAAAAA¬ë");
+        printf("\n                        .,AA##AAAAAAAA ¬ëAAAAAAAAAAAA¬ë");
         printf("\n                        .0AAAAAA##AAA0  $AAAAAAAAAAA#");
-        printf("\n                         AA#AAAAAAAAAë .ëAAAAAAAAAAAAë");
+        printf("\n                         AA#AAAAAAAAA¬ë .¬ëAAAAAAAAAAAA¬ë");
         printf("\n                        0$AA$AAAAAAA#.  .AAAAAA#AAAAA$.");
-        printf("\n                       ëAAA##ëë$AA$Aë    ,AAA$#..##AAAë");
-        printf("\n                      .$$@@ë.  AAAAA      $AAAë    C#$A");
-        printf("\n                      ë#=.     =AA$ë      ,AA#     . ë#");
+        printf("\n                       ¬ëAAA##¬ë¬ë$AA$A¬ë    ,AAA$#..##AAA¬ë");
+        printf("\n                      .$$@@¬ë.  AAAAA      $AAA¬ë    C#$A");
+        printf("\n                      ¬ë#=.     =AA$¬ë      ,AA#     . ¬ë#");
 
 
 
@@ -957,12 +957,12 @@ printf("\n                          ÆÆÆÆÆ");
 {
 
         system("color C");
-//Apresentar a mensagem caso o usu·rio perca o jogo
+//Apresentar a mensagem caso o usu√°rio perca o jogo
         printf("*********************************************************************************");
         printf("\n                             GAME OVER");
         printf("\n*******************************************************************************");
-        printf("\n\n               SEU N⁄MERO DE ACERTOS FOI MENOR OU IGUAL AO DE ERROS");
-        printf("\n                      PORTANTO N√O GANHOU A MEDALHA DE OUTRO");
+        printf("\n\n               SEU N√öMERO DE ACERTOS FOI MENOR OU IGUAL AO DE ERROS");
+        printf("\n                      PORTANTO N√ÉO GANHOU A MEDALHA DE OUTRO");
 
         do
 {
@@ -975,7 +975,7 @@ printf("\n                          ÆÆÆÆÆ");
 
 }
         system("color F");/*Mudar a cor da linha*/
-//Apresentar a mensagem de agradecimento apÛs o usu·rio finalizar o jogo
+//Apresentar a mensagem de agradecimento ap√≥s o usu√°rio finalizar o jogo
         system("cls");/*Limpar a tela anterior*/
         printf("\n*******************************************************************************");
         printf("\n                  OBRIGADO POR PARTICIPAR DO SUPER QUIZ");
